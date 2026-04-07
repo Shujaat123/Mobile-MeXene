@@ -16,13 +16,13 @@ This work focuses on making spectral prediction from MXene-based metasurface ima
 
 ## 🏗️ Model Architecture
 
-Image → Backbone → FC Projection → Spectrum
-↓
-Multi-Channel Spectral Refinement
-↓
-Savitzky–Golay smoothing
-↓
-Output Spectrum
+Image → Backbone → FC Projection → Spectrum  
+↓  
+Multi-Channel Spectral Refinement  
+↓  
+Savitzky–Golay smoothing  
+↓  
+Output Spectrum  
 
 ---
 
@@ -35,23 +35,23 @@ Please refer to the argparser in train.py file for arguments
 Per Run
 
 {
-run_xx/
-├── base_split/
-├── trainpct_xxx/
-│   ├── epoch_metrics.csv
-│   ├── history.json
-│   ├── test_metrics_raw.json
-│   ├── test_metrics_savgol_grid.csv
-│   └── checkpoints/
+run_xx/  
+├── base_split/  
+├── trainpct_xxx/  
+│   ├── epoch_metrics.csv  
+│   ├── history.json  
+│   ├── test_metrics_raw.json  
+│   ├── test_metrics_savgol_grid.csv  
+│   └── checkpoints/  
 }
 
 Global
 
 {
-all_runs_summary.csv
-all_runs_smoothing_summary.csv
-aggregate_metrics.csv
-aggregate_savgol_metrics.csv
+all_runs_summary.csv  
+all_runs_smoothing_summary.csv  
+aggregate_metrics.csv  
+aggregate_savgol_metrics.csv  
 }
 
 ---
