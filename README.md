@@ -34,7 +34,6 @@ Please refer to the argparser in train.py file for arguments
 
 Per Run
 
-{
 run_xx/  
 ├── base_split/  
 ├── trainpct_xxx/  
@@ -43,16 +42,13 @@ run_xx/
 │   ├── test_metrics_raw.json  
 │   ├── test_metrics_savgol_grid.csv  
 │   └── checkpoints/  
-}
 
 Global
 
-{
 all_runs_summary.csv  
 all_runs_smoothing_summary.csv  
 aggregate_metrics.csv  
 aggregate_savgol_metrics.csv  
-}
 
 ---
 
