@@ -4,6 +4,8 @@ This repository contains the implementation of the manuscript:
 
 > **Optimizing Spectral Prediction in MXene-Based Metasurfaces Through Multi-Channel Spectral Refinement and Savitzky-Golay Smoothing**
 
+<img width="1430" height="468" alt="image" src="https://github.com/user-attachments/assets/65d65f73-4e4e-45fd-a9a2-68235841931b" />
+
 ---
 
 ## 📌 Overview
